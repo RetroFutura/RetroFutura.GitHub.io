@@ -1,0 +1,370 @@
+/* Neon font styles */
+
+.font-neon {
+  font-size: 3em;
+  font-family: "Acme", "Neon", sans-serif;
+  color: #000;
+}
+
+.font-neon-red {
+  text-shadow: 0 0 10px #ff3737, 0 0 20px #ff3737, 0 0 30px #ff3737;
+  animation: pulse-red 2.2s infinite;
+}
+
+.font-neon-green {
+  text-shadow: 0 0 10px #34c759, 0 0 20px #34c759, 0 0 30px #34c759;
+  animation: wave-green 2s infinite;
+}
+
+.font-neon-blue {
+  text-shadow: 0 0 10px #45a9e6, 0 0 20px #45a9e6, 0 0 30px #45a9e6;
+  animation: spin-blue 1.8s infinite;
+}
+
+.font-neon-pink {
+  text-shadow: 0 0 10px #ff00de, 0 0 20px #ff00de, 0 0 30px #ff00de;
+  animation: flash-pink 1.5s infinite;
+}
+
+.font-glow {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+  animation: glow 2s infinite;
+}
+
+.font-electric {
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+  animation: electric 1.5s infinite;
+}
+
+.font-fire {
+  color: #fff;
+  text-shadow: 0 0 10px #ff9900, 0 0 20px #ff9900, 0 0 30px #ff9900;
+  animation: fire 2s infinite;
+}
+
+.font-water {
+  color: #fff;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+  animation: water 2s infinite;
+}
+
+.font-smoke {
+  color: #fff;
+  text-shadow: 0 0 10px #ccc, 0 0 20px #ccc, 0 0 30px #ccc;
+  animation: smoke 2s infinite;
+}
+
+.font-laser {
+  color: #fff;
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+  animation: laser 1.5s infinite;
+}
+
+.font-rainbow {
+  color: #fff;
+  text-shadow: 0 0 10px #ff69b4, 0 0 20px #33cc33, 0 0 30px #66ffff;
+  animation: rainbow 2s infinite;
+}
+
+.font-spectrum {
+  color: #fff;
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #ffff00, 0 0 30px #00ffff;
+  animation: spectrum 2s infinite;
+}
+
+.font-strobe {
+  color: #fff;
+  text-shadow: 0 0 10px #fff;
+  animation: strobe 1s infinite;
+}
+
+.font-pulse-2 {
+  color: #fff;
+  text-shadow: 0 0 10px #ff69b4, 0 0 20px #33cc33, 0 0 30px #66ffff;
+  animation: pulse-2 2s infinite;
+}
+
+.font-ripple {
+  color: #fff;
+  text-shadow: 0 0 10px #ff69b4, 0 0 20px #33cc33, 0 0 30px #66ffff;
+  animation: ripple 2s infinite;
+}
+
+/* Keyframe animations */
+
+@keyframes pulse-red {
+  0% {
+    transform: scale(1);
+    text-shadow: 0 0 10px #ff3737;
+  }
+
+  50% {
+    transform: scale(1.2);
+    text-shadow: 0 0 20px #ff3737;
+  }
+
+  100% {
+    transform: scale(1);
+    text-shadow: 0 0 30px #ff3737;
+  }
+}
+
+@keyframes wave-green {
+  0% {
+    transform: translateX(0);
+    text-shadow: 0 0 10px #34c759;
+  }
+
+  50% {
+    transform: translateX(10px);
+    text-shadow: 0 0 20px #34c759;
+  }
+
+  100% {
+    transform: translateX(0);
+    text-shadow: 0 0 30px #34c759;
+  }
+}
+
+@keyframes spin-blue {
+  0% {
+    transform: rotate(0deg);
+    text-shadow: 0 0 10px #45a9e6;
+  }
+
+  25% {
+    transform: rotate(5deg);
+    text-shadow: 0 0 20px #45a9e6;
+  }
+
+  50% {
+    transform: rotate(-5deg);
+    text-shadow: 0 0 20px #45a9e6;
+  }
+
+  100% {
+    transform: rotate(0deg);
+    text-shadow: 0 0 30px #45a9e6;
+  }
+}
+
+@keyframes flash-pink {
+  0% {
+    opacity: 1;
+    text-shadow: 0 0 10px #ff00de;
+  }
+
+  50% {
+    opacity: 0.5;
+    text-shadow: 0 0 20px #ff00de;
+  }
+
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 30px #ff00de;
+  }
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 10px #fff;
+  }
+
+  50% {
+    text-shadow: 0 0 20px #fff;
+  }
+
+  100% {
+    text-shadow: 0 0 30px #fff;
+  }
+}
+
+@keyframes electric {
+  0% {
+    text-shadow: 0 0 5px #fff;
+  }
+
+  25% {
+    text-shadow: 0 0 10px #fff;
+  }
+
+  50% {
+    text-shadow: 0 0 15px #fff;
+  }
+
+  75% {
+    text-shadow: 0 0 10px #fff;
+  }
+
+  100% {
+    text-shadow: 0 0 5px #fff;
+  }
+}
+
+@keyframes fire {
+  0% {
+    text-shadow: 0 0 10px #ff9900;
+  }
+
+  50% {
+    text-shadow: 0 0 20px #ff9900;
+  }
+
+  100% {
+    text-shadow: 0 0 30px #ff9900;
+  }
+}
+
+@keyframes water {
+  0% {
+    text-shadow: 0 0 10px #00ffff;
+  }
+
+  50% {
+    text-shadow: 0 0 20px #00ffff;
+  }
+
+  100% {
+    text-shadow: 0 0 30px #00ffff;
+  }
+}
+
+@keyframes smoke {
+  0% {
+    text-shadow: 0 0 10px #ccc;
+  }
+
+  50% {
+    text-shadow: 0 0 20px #ccc;
+  }
+
+  100% {
+    text-shadow: 0 0 30px #ccc;
+  }
+}
+
+@keyframes laser {
+  0% {
+    text-shadow: 0 0 10px #ff0000;
+  }
+
+  25% {
+    text-shadow: 0 0 20px #ff0000;
+  }
+
+  50% {
+    text-shadow: 0 0 30px #ff0000;
+  }
+
+  75% {
+    text-shadow: 0 0 20px #ff0000;
+  }
+
+  100% {
+    text-shadow: 0 0 10px #ff0000;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    text-shadow: 0 0 10px #ff69b4;
+  }
+
+  25% {
+    text-shadow: 0 0 20px #33cc33;
+  }
+
+  50% {
+    text-shadow: 0 0 30px #66ffff;
+  }
+
+  75% {
+    text-shadow: 0 0 20px #33cc33;
+  }
+
+  100% {
+    text-shadow: 0 0 10px #ff69b4;
+  }
+}
+
+@keyframes spectrum {
+  0% {
+    text-shadow: 0 0 10px #ff0000;
+  }
+
+  25% {
+    text-shadow: 0 0 20px #ffff00;
+  }
+
+  50% {
+    text-shadow: 0 0 30px #00ffff;
+  }
+
+  75% {
+    text-shadow: 0 0 20px #ffff00;
+  }
+
+  100% {
+    text-shadow: 0 0 10px #ff0000;
+  }
+}
+
+@keyframes strobe {
+  0% {
+    text-shadow: 0 0 10px #fff;
+  }
+
+  50% {
+    text-shadow: 0 0 20px #fff;
+  }
+
+  100% {
+    text-shadow: 0 0 10px #fff;
+  }
+}
+
+@keyframes pulse-2 {
+  0% {
+    transform: scale(1);
+    text-shadow: 0 0 10px #ff69b4;
+  }
+
+  50% {
+    transform: scale(1.2);
+    text-shadow: 0 0 20px #33cc33;
+  }
+
+  100% {
+    transform: scale(1);
+    text-shadow: 0 0 30px #66ffff;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+    text-shadow: 0 0 10px #ff69b4;
+  }
+
+  25% {
+    transform: scale(1.1);
+    text-shadow: 0 0 15px #33cc33;
+  }
+
+  50% {
+    transform: scale(1.2);
+    text-shadow: 0 0 20px #66ffff;
+  }
+
+  75% {
+    transform: scale(1.1);
+    text-shadow: 0 0 15px #33cc33;
+  }
+
+  100% {
+    transform: scale(1);
+    text-shadow: 0 0 10px #ff69b4;
+  }
+}

@@ -1,0 +1,182 @@
+/* Primary Colors */
+
+.bright-pink {
+  color: #FF69B4;
+  background-color: #FF69B4;
+}
+
+.orange {
+  color: #FF8C00;
+  background-color: #FF8C00;
+}
+
+.blue {
+  color: #3498DB;
+  background-color: #3498DB;
+}
+
+/* Secondary Colors */
+
+.green {
+  color: #34C759;
+  background-color: #34C759;
+}
+
+.yellow {
+  color: #F7DC6F;
+  background-color: #F7DC6F;
+}
+
+.red {
+  color: #E74C3C;
+  background-color: #E74C3C;
+}
+
+.white {
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+}
+
+/* Background */
+
+.black {
+  background-color: #333333;
+}
+
+/* Gradient Versions */
+
+.bright-pink-to-orange {
+  background-image: linear-gradient(to bottom, #FF69B4, #FF8C00);
+}
+
+.blue-to-green {
+  background-image: linear-gradient(to bottom, #3498DB, #34C759);
+}
+
+.yellow-to-red {
+  background-image: linear-gradient(to bottom, #F7DC6F, #E74C3C);
+}
+
+/* Accent Colors */
+
+.bright-coral {
+  color: #FFC67D;
+  background-color: #FFC67D;
+}
+
+.mint-green {
+  color: #B2FFFC;
+  background-color: #B2FFFC;
+}
+
+.deep-teal {
+  color: #0097A7;
+  background-color: #0097A7;
+}
+
+.lime-green {
+  color: #32CD32;
+  background-color: #32CD32;
+}
+
+.golden-yellow {
+  color: #F2C464;
+  background-color: #F2C464;
+}
+
+.soft-peach {
+  color: #FFD7BE;
+  background-color: #FFD7BE;
+}
+
+.bright-turquoise {
+  color: #1ABC9C;
+  background-color: #1ABC9C;
+}
+
+.rich-brown {
+  color: #786C3B;
+  background-color: #786C3B;
+}
+
+/* Light Mode */
+
+.light-mode {
+  background-color: #F7F7F7;
+}
+
+.light-mode .bright-pink {
+  color: #FFC5C5;
+  background-color: #FFC5C5;
+}
+
+.light-mode .orange {
+  color: #FFA07A;
+  background-color: #FFA07A;
+}
+
+.light-mode .blue {
+  color: #87CEEB;
+  background-color: #87CEEB;
+}
+
+.light-mode .green {
+  color: #C6F7D0;
+  background-color: #C6F7D0;
+}
+
+.light-mode .yellow {
+  color: #F2C464;
+  background-color: #F2C464;
+}
+
+.light-mode .red {
+  color: #FFC080;
+  background-color: #FFC080;
+}
+
+.light-mode .white {
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+}
+
+/* Dark Mode */
+
+.dark-mode {
+  background-color: #333333;
+}
+
+.dark-mode .bright-pink {
+  color: #FF69B4;
+  background-color: #FF69B4;
+}
+
+.dark-mode .orange {
+  color: #FF8C00;
+  background-color: #FF8C00;
+}
+
+.dark-mode .blue {
+  color: #3498DB;
+  background-color: #3498DB;
+}
+
+.dark-mode .green {
+  color: #34C759;
+  background-color: #34C759;
+}
+
+.dark-mode .yellow {
+  color: #F7DC6F;
+  background-color: #F7DC6F;
+}
+
+.dark-mode .red {
+  color: #E74C3C;
+  background-color: #E74C3C;
+}
+
+.dark-mode .white {
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+}

@@ -1,0 +1,23 @@
+.funky-grid {
+  /* Add a retro-themed background */
+  background-image: url("https://mosberg.github.io/src/img/rubiks-cube-pattern.png");
+  background-size: 100% 200px;
+  background-position: 0% 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+
+.funky-grid:hover {
+  background-position: 100% 100%;
+}
+
+.grid-item {
+  /* Add a funky, colorful effect */
+  background-image: linear-gradient(to bottom, #ff69b4, #e74c3c);
+  background-size: 100% 200px;
+  background-position: 0% 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+
+.grid-item:hover {
+  background-position: 100% 100%;
+}

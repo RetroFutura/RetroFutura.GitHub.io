@@ -1,0 +1,21 @@
+.retro-radar {
+  /* Add a glass-like effect */
+  background-image: radial-gradient(farthest-corner at 50% 50%, #333, #444);
+  background-size: 100% 200px;
+  background-position: 0% 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+
+.retro-radar:hover {
+  background-position: 100% 100%;
+}
+
+.radar-screen {
+  /* Add a subtle glow effect */
+  box-shadow: 0 0 10px #e74c3c, 0 0 20px #ff69b4;
+}
+
+.radar-blip {
+  /* Add a sparkly effect */
+  box-shadow: 0 0 5px #fff, 0 0 10px #ff69b4;
+}

@@ -1,0 +1,80 @@
+{
+  "fontStyles": {
+    "neon": {
+      "fontSize": "3em",
+      "fontFamily": "\"Acme\", \"Neon\", sans-serif",
+      "color": "#000"
+    },
+    "neonRed": {
+      "textShadow": "0 0 10px #ff3737, 0 0 20px #ff3737, 0 0 30px #ff3737",
+      "animation": "pulse-red 2.2s infinite"
+    },
+    "neonGreen": {
+      "textShadow": "0 0 10px #34c759, 0 0 20px #34c759, 0 0 30px #34c759",
+      "animation": "wave-green 2s infinite"
+    },
+    "neonBlue": {
+      "textShadow": "0 0 10px #45a9e6, 0 0 20px #45a9e6, 0 0 30px #45a9e6",
+      "animation": "spin-blue 1.8s infinite"
+    },
+    "neonPink": {
+      "textShadow": "0 0 10px #ff00de, 0 0 20px #ff00de, 0 0 30px #ff00de",
+      "animation": "flash-pink 1.5s infinite"
+    },
+    "glow": {
+      "color": "#fff",
+      "textShadow": "0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff",
+      "animation": "glow 2s infinite"
+    },
+    "electric": {
+      "color": "#fff",
+      "textShadow": "0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff",
+      "animation": "electric 1.5s infinite"
+    },
+    "fire": {
+      "color": "#fff",
+      "textShadow": "0 0 10px #ff9900, 0 0 20px #ff9900, 0 0 30px #ff9900",
+      "animation": "fire 2s infinite"
+    },
+    "water": {
+      "color": "#fff",
+      "textShadow": "0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff",
+      "animation": "water 2s infinite"
+    },
+    "smoke": {
+      "color": "#fff",
+      "textShadow": "0 0 10px #ccc, 0 0 20px #ccc, 0 0 30px #ccc",
+      "animation": "smoke 2s infinite"
+    },
+    "laser": {
+      "color": "#fff",
+      "textShadow": "0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000",
+      "animation": "laser 1.5s infinite"
+    },
+    "rainbow": {
+      "color": "#fff",
+      "textShadow": "0 0 10px #ff69b4, 0 0 20px #33cc33, 0 0 30px #66ffff",
+      "animation": "rainbow 2s infinite"
+    },
+    "spectrum": {
+      "color": "#fff",
+      "textShadow": "0 0 10px #ff0000, 0 0 20px #ffff00, 0 0 30px #00ffff",
+      "animation": "spectrum 2s infinite"
+    },
+    "strobe": {
+      "color": "#fff",
+      "textShadow": "0 0 10px #fff",
+      "animation": "strobe 1s infinite"
+    },
+    "pulse2": {
+      "color": "#fff",
+      "textShadow": "0 0 10px #ff69b4, 0 0 20px #33cc33, 0 0 30px #66ffff",
+      "animation": "pulse-2 2s infinite"
+    },
+    "ripple": {
+      "color": "#fff",
+      "textShadow": "0 0 10px #ff69b4, 0 0 20px #33cc33, 0 0 30px #66ffff",
+      "animation": "ripple 2s infinite"
+    }
+  }
+}

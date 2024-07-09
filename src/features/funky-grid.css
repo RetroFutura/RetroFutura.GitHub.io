@@ -1,0 +1,51 @@
+.funky-grid {
+  background-color: #333;
+  /* Dark background */
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: 2px 2px #e74c3c;
+  /* Red glow effect */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+.grid-item {
+  background-color: #444;
+  /* Dark gray background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #e74c3c;
+  /* Red glow effect */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.grid-item:hover {
+  background-color: #ff69b4;
+  /* Bright pink hover effect */
+}
+
+/* Retro-themed Rubik's Cube-inspired design */
+.funky-grid {
+  perspective: 1000px;
+}
+
+.grid-container {
+  transform-style: preserve-3d;
+  transform: rotateX(30deg) rotateY(30deg);
+}
+
+.grid-item {
+  transform: translateZ(20px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.grid-item:hover {
+  transform: translateZ(40px);
+}

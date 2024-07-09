@@ -1,67 +1,373 @@
-body {
+/* Global Styles */
+
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body.retrofutura-body {
-  background-color: #333;
-  font-family: "Space Age", sans-serif;
+body {
+  font-family: 'Acme Sans', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  color: #00698f;
+}
+
+a {
+  text-decoration: none;
+  color: #00698f;
+}
+
+a:hover {
+  color: #0099cc;
+}
+
+/* RetroFutura Header */
+
 .retrofutura-header {
-  background-color: #6600ff;
+  background-color: #00698f;
   padding: 20px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .retrofutura-header h1 {
   font-size: 36px;
-  font-weight: bold;
-  text-shadow: 2px 2px #ff00ff;
+  margin-block-end: 10px;
 }
 
-.retrofutura-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-}
-
-.funky-features,
-.fancy-functions {
-  background-color: #444;
-  padding: 20px;
-  border-radius: 10px;
+.retrofutura-header p {
+  font-size: 18px;
   margin-block-end: 20px;
 }
 
-.funky-features h2,
-.fancy-functions h2 {
-  font-size: 24px;
-  font-weight: bold;
-  color: #ff69b4;
-}
+/* Neon Navigation */
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  padding: 10px;
-  border-block-end: 1px solid #666;
-}
-
-li:last-child {
-  border-block-end: none;
-}
-
-.retrofutura-footer {
-  background-color: #6600ff;
+.neon-nav {
+  background-color: #333;
   padding: 10px;
   text-align: center;
-  color: #ffffff;
+}
+
+.neon-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.neon-nav li {
+  margin-inline-end: 20px;
+}
+
+.neon-nav a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.neon-nav a:hover {
+  color: #0099cc;
+}
+
+/* Kaleidoscope Background */
+
+.kaleidoscope-background {
+  background-image: linear-gradient(to bottom, #f0f0f0, #ccc);
+  background-size: 100% 300px;
+  background-position: 0% 100%;
+  transition: background-position 0.3s ease;
+}
+
+.kaleidoscope-background:hover {
+  background-position: 100% 100%;
+}
+
+/* Funky Features */
+
+.funky-features {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+}
+
+.funky-features h2 {
+  font-size: 24px;
+  margin-block-end: 10px;
+}
+
+.funky-features ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.funky-features li {
+  margin-block-end: 10px;
+}
+
+.funky-features li:before {
+  content: "\2022";
+  font-size: 18px;
+  color: #00698f;
+  margin-inline-end: 10px;
+}
+
+/* Fancy Functions */
+
+.fancy-functions {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.fancy-functions h2 {
+  font-size: 24px;
+  margin-block-end: 10px;
+}
+
+.fancy-functions ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fancy-functions li {
+  margin-block-end: 10px;
+}
+
+.fancy-functions li:before {
+  content: "\2022";
+  font-size: 18px;
+  color: #00698f;
+  margin-inline-end: 10px;
+}
+
+/* Groovy Gallery */
+
+.groovy-gallery {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+}
+
+.groovy-gallery h2 {
+  font-size: 24px;
+  margin-block-end: 10px;
+}
+
+.groovy-gallery figure {
+  margin: 20px;
+  display: inline-block;
+}
+
+.groovy-gallery img {
+  inline-size: 100%;
+  block-size: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.groovy-gallery figcaption {
+  font-size: 18px;
+  color: #333;
+  margin-block-start: 10px;
+}
+
+/* Cool Content */
+
+.cool-content {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.cool-content h2 {
+  font-size: 24px;
+  margin-block-end: 10px;
+}
+
+.cool-content p {
+  font-size: 18px;
+  margin-block-end: 20px;
+}
+
+.cool-content a {
+  color: #00698f;
+  transition: color 0.3s ease;
+}
+
+.cool-content a:hover {
+  color: #0099cc;
+}
+
+/* Far Out Fonts */
+
+.far-out-fonts {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+}
+
+.far-out-fonts h1 {
+  font-size: 36px;
+  margin-block-end: 10px;
+}
+
+.far-out-fonts select {
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #333;
+}
+
+.far-out-fonts #font-preview {
+  font-size: 36px;
+  margin-block-start: 20px;
+}
+
+/* Funky Grid */
+
+.funky-grid {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.funky-grid.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.funky-grid.grid-item {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.funky-grid.grid-item:hover {
+  background-color: #ccc;
+}
+
+/* Retro Radar */
+
+.retro-radar {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+}
+
+.retro-radar h2 {
+  font-size: 24px;
+  margin-block-end: 10px;
+}
+
+.retro-radar.radar-screen {
+  inline-size: 200px;
+  block-size: 200px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 20px auto;
+}
+
+.retro-radar.radar-sweep {
+  inline-size: 100%;
+  block-size: 100%;
+  border-radius: 50%;
+  background-color: #00698f;
+  animation: radar-sweep 3s ease infinite;
+}
+
+.retro-radar.radar-blip {
+  inline-size: 20px;
+  block-size: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-start: 50%;
+  transform: translate(-50%, -50%);
+  animation: radar-blip 3s ease infinite;
+}
+
+@keyframes radar-sweep {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes radar-blip {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Retro Font System */
+
+.retro-font-system {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+}
+
+.retro-font-system h1 {
+  font-size: 36px;
+  margin-block-end: 10px;
+}
+
+.retro-font-system ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.retro-font-system li {
+  margin-block-end: 10px;
+}
+
+.retro-font-system li:before {
+  content: "\2022";
+  font-size: 18px;
+  color: #00698f;
+  margin-inline-end: 10px;
+}
+
+/* Footer */
+
+.retrofutura-footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.retrofutura-footer p {
+  font-size: 18px;
+  margin-block-end: 10px;
 }

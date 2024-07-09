@@ -1,0 +1,105 @@
+.retro-radar {
+  background-color: #333;
+  /* Dark background */
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: 2px 2px #e74c3c;
+  /* Red glow effect */
+}
+
+.radar-screen {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border-radius: 50%;
+  background-color: #444;
+  /* Dark gray background */
+  border: 1px solid #e74c3c;
+  /* Red border */
+  box-shadow: 0 0 10px #e74c3c;
+  /* Red glow effect */
+  position: relative;
+}
+
+.radar-sweep {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #e74c3c;
+  /* Red sweep effect */
+  animation: sweep 3s linear infinite;
+}
+
+.radar-blip {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  /* White blip effect */
+  animation: blip 1s linear infinite;
+}
+
+@keyframes sweep {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes blip {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.retro-radar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.retro-radar li {
+  margin-right: 20px;
+}
+
+.retro-radar a {
+  color: #fff;
+  /* White text */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.retro-radar a:hover {
+  color: #ff69b4;
+  /* Bright pink hover effect */
+}
+
+.font-effect-electric {
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px #ff69b4;
+  /* Bright pink neon effect */
+}

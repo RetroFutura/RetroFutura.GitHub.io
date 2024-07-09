@@ -1,0 +1,26 @@
+.neon-nav {
+  /* Add a stainless steel-like background */
+  background-image: linear-gradient(to bottom, #ccc, #333);
+  background-size: 100% 200px;
+  background-position: 0% 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+
+.neon-nav:hover {
+  background-position: 100% 100%;
+}
+
+.neon-nav ul {
+  /* Add a futuristic glow effect */
+  box-shadow: 0 0 10px #e74c3c;
+}
+
+.neon-nav li {
+  /* Add a slight 3D effect */
+  transform: perspective(100px) rotateY(10deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.neon-nav li:hover {
+  transform: perspective(100px) rotateY(0deg);
+}

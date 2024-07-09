@@ -1,44 +1,494 @@
 <!DOCTYPE html>
-<html lang="galactic-standard">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Grooviest Homepage in the Galaxy!">
+  <meta name="keywords"
+    content="retro-futurism, retrofuturism, retro, futurism, future, sci-fi, science fiction, space, atomic, jet, space age, atomic age, jet age, retrofutura, retrofutura homepage, retrofutura website, retrofutura homepage in the galaxy, retrofutura website in the galaxy, mosberg, mosberg retrofutura, mosberg retrofutura homepage, mosberg retrofutura website, mosberg retrofutura homepage in the galaxy, mosberg retrofutura website in the galaxy">
+  <meta name="author" content="Mosberg">
   <title>RetroFutura - The Grooviest Homepage in the Galaxy!</title>
-  <link rel="stylesheet" href="src/css/neon-dreams.css" />
-  <link rel="shortcut icon" href="src/img/RetroFuturaLogoPng.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Acme+Sans&display=swap" rel="stylesheet">
+  <link type="image/x-icon" href="src/img/RetroFuturaLogoPng.png" rel="icon">
+  <style>
+    /* Global Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Acme Sans', sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      text-align: center;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: bold;
+      color: #00698f;
+    }
+
+    a {
+      text-decoration: none;
+      color: #00698f;
+    }
+
+    a:hover {
+      color: #0099cc;
+    }
+
+    /* RetroFutura Header */
+
+    .retrofutura-header {
+      background-color: #00698f;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .retrofutura-header h1 {
+      font-size: 36px;
+      margin-block-end: 10px;
+    }
+
+    .retrofutura-header p {
+      font-size: 18px;
+      margin-block-end: 20px;
+    }
+
+    /* Neon Navigation */
+
+    .neon-nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .neon-nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .neon-nav li {
+      margin-inline-end: 20px;
+    }
+
+    .neon-nav a {
+      color: #fff;
+      transition: color 0.3s ease;
+    }
+
+    .neon-nav a:hover {
+      color: #0099cc;
+    }
+
+    /* Kaleidoscope Background */
+
+    .kaleidoscope-background {
+      background-image: linear-gradient(to bottom, #f0f0f0, #ccc);
+      background-size: 100% 300px;
+      background-position: 0% 100%;
+      transition: background-position 0.3s ease;
+    }
+
+    .kaleidoscope-background:hover {
+      background-position: 100% 100%;
+    }
+
+    /* Funky Features */
+
+    .funky-features {
+      background-color: #f7f7f7;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .funky-features h2 {
+      font-size: 24px;
+      margin-block-end: 10px;
+    }
+
+    .funky-features ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .funky-features li {
+      margin-block-end: 10px;
+    }
+
+    .funky-features li:before {
+      content: "\2022";
+      font-size: 18px;
+      color: #00698f;
+      margin-inline-end: 10px;
+    }
+
+    /* Fancy Functions */
+
+    .fancy-functions {
+      background-color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .fancy-functions h2 {
+      font-size: 24px;
+      margin-block-end: 10px;
+    }
+
+    .fancy-functions ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .fancy-functions li {
+      margin-block-end: 10px;
+    }
+
+    .fancy-functions li:before {
+      content: "\2022";
+      font-size: 18px;
+      color: #00698f;
+      margin-inline-end: 10px;
+    }
+
+    /* Groovy Gallery */
+
+    .groovy-gallery {
+      background-color: #f7f7f7;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .groovy-gallery h2 {
+      font-size: 24px;
+      margin-block-end: 10px;
+    }
+
+    .groovy-gallery figure {
+      margin: 20px;
+      display: inline-block;
+    }
+
+    .groovy-gallery img {
+      inline-size: 100%;
+      block-size: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .groovy-gallery figcaption {
+      font-size: 18px;
+      color: #333;
+      margin-block-start: 10px;
+    }
+
+    /* Cool Content */
+
+    .cool-content {
+      background-color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .cool-content h2 {
+      font-size: 24px;
+      margin-block-end: 10px;
+    }
+
+    .cool-content p {
+      font-size: 18px;
+      margin-block-end: 20px;
+    }
+
+    .cool-content a {
+      color: #00698f;
+      transition: color 0.3s ease;
+    }
+
+    .cool-content a:hover {
+      color: #0099cc;
+    }
+
+    /* Far Out Fonts */
+
+    .far-out-fonts {
+      background-color: #f7f7f7;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .far-out-fonts h1 {
+      font-size: 36px;
+      margin-block-end: 10px;
+    }
+
+    .far-out-fonts select {
+      font-size: 18px;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      background-color: #fff;
+      color: #333;
+    }
+
+    .far-out-fonts #font-preview {
+      font-size: 36px;
+      margin-block-start: 20px;
+    }
+
+    /* Funky Grid */
+
+    .funky-grid {
+      background-color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .funky-grid.grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+
+    .funky-grid.grid-item {
+      background-color: #f7f7f7;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    .funky-grid.grid-item:hover {
+      background-color: #ccc;
+    }
+
+    /* Retro Radar */
+
+    .retro-radar {
+      background-color: #f7f7f7;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .retro-radar h2 {
+      font-size: 24px;
+      margin-block-end: 10px;
+    }
+
+    .retro-radar.radar-screen {
+      inline-size: 200px;
+      block-size: 200px;
+      border-radius: 50%;
+      background-color: #fff;
+      margin: 20px auto;
+      position: relative;
+    }
+
+    .retro-radar.radar-sweep {
+      inline-size: 100%;
+      block-size: 100%;
+      border-radius: 50%;
+      background-color: #00698f;
+      animation: radar-sweep 3s ease infinite;
+      position: absolute;
+      inset-block-start: 0;
+      inset-inline-start: 0;
+    }
+
+    .retro-radar.radar-blip {
+      inline-size: 20px;
+      block-size: 20px;
+      border-radius: 50%;
+      background-color: #fff;
+      position: absolute;
+      inset-block-start: 50%;
+      inset-inline-start: 50%;
+      transform: translate(-50%, -50%);
+      animation: radar-blip 3s ease infinite;
+    }
+
+    @keyframes radar-sweep {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes radar-blip {
+      0% {
+        opacity: 0;
+      }
+
+      50% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    /* Retro Font System */
+
+    .retro-font-system {
+      background-color: #f7f7f7;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .retro-font-system h1 {
+      font-size: 36px;
+      margin-block-end: 10px;
+    }
+
+    .retro-font-system ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .retro-font-system li {
+      margin-block-end: 10px;
+    }
+
+    .retro-font-system li:before {
+      content: "\2022";
+      font-size: 18px;
+      color: #00698f;
+      margin-inline-end: 10px;
+    }
+
+    /* Footer */
+
+    .retrofutura-footer {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .retrofutura-footer p {
+      margin-block-end: 10px;
+    }
+
+    .retrofutura-footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .retrofutura-footer a:hover {
+      color: #ccc;
+    }
+  </style>
 </head>
 
 <body class="retrofutura-body">
-  <header class="retrofutura-header">
-    <h1>RetroFutura</h1>
-    <p>The Grooviest Homepage in the Galaxy!</p>
-  </header>
-  <main class="retrofutura-main">
-    <section class="funky-features">
-      <h2>Funky Features</h2>
+  <div class="kaleidoscope-background">
+    <header class="retrofutura-header">
+      <h1>RetroFutura</h1>
+      <p>The Grooviest Homepage in the Galaxy!</p>
+    </header>
+    <nav class="neon-nav">
       <ul>
-        <li>Neon Navigation</li>
-        <li>Retro Radar</li>
-        <li>Groovy Grid</li>
-        <li>Far Out Fonts</li>
-        <li>Psychedelic Patterns</li>
+        <li><a href="#">Retro Futura</a></li>
+        <li><a href="#">Funky Features</a></li>
+        <li><a href="#">Groovy Gallery</a></li>
+        <li><a href="#">Cool Content</a></li>
+        <li><a href="#">Galactic Typography</a></li>
       </ul>
-    </section>
-    <section class="fancy-functions">
-      <h2>Fancy Functions</h2>
-      <ul>
-        <li>AI-Powered Chat</li>
-        <li>Personalized Portal</li>
-        <li>Retro Rewards</li>
-        <li>Time-Traveling Tweets</li>
-        <li>Futuristic Feedback</li>
-      </ul>
-    </section>
-  </main>
-  <footer class="retrofutura-footer">
-    <p>&copy; 2023 RetroFutura. All rights reserved.</p>
-  </footer>
+    </nav>
+    <main class="retrofutura-main">
+      <section class="funky-features">
+        <h2>Funky Features</h2>
+        <ul>
+          <li>Neon Navigation</li>
+          <li>Retro Radar</li>
+          <li>Groovy Grid</li>
+          <li>Far Out Fonts</li>
+          <li>Psychedelic Patterns</li>
+        </ul>
+      </section>
+      <section class="fancy-functions">
+        <h2>Fancy Functions</h2>
+        <ul>
+          <li>AI-Powered Chat</li>
+          <li>Personalized Portal</li>
+          <li>Retro Rewards</li>
+          <li>Time-Traveling Tweets</li>
+          <li>Futuristic Feedback</li>
+        </ul>
+      </section>
+      <section class="groovy-gallery">
+        <h2>Groovy Gallery</h2>
+        <figure>
+          <img src="src/img/RetroFuturaGallery1.png" alt="RetroFutura Gallery Image 1">
+          <figcaption>Space Age</figcaption>
+        </figure>
+        <figure>
+          <img src="src/img/RetroFuturaGallery2.png" alt="RetroFutura Gallery Image 2">
+          <figcaption>Atomic Age</figcaption>
+        </figure>
+        <figure>
+          <img src="src/img/RetroFuturaGallery3.png" alt="RetroFutura Gallery Image 3">
+          <figcaption>Jet Age</figcaption>
+        </figure>
+      </section>
+      <section class="cool-content">
+        <h2>Cool Content</h2>
+        <p>
+          Check out the latest news, reviews, and interviews from the world of
+          retro-futurism!
+        </p>
+        <a href="https://github.com/RetroFutura/RetroFutura.GitHub.io" target="_blank" rel="noopener noreferrer">Read
+          More</a>
+      </section>
+      <section class="retro-font-system">
+        <h1>Galactic Typography</h1>
+        <h2>Retro Font System</h2>
+        <p>Explore the cosmos of typography with our custom font system!</p>
+        <h2>Far Out Fonts</h2>
+        <select id="font-family-select">
+          <!-- options will be populated dynamically from Google Fonts -->
+        </select>
+
+        <select id="font-effect-select">
+          <!-- options will be populated dynamically from src/json/font-effect.json -->
+        </select>
+
+        <div id="font-preview" style="font-size: 36px"></div>
+      </section>
+      <section class="retro-radar">
+        <h1>Retro Radar</h1>
+        <h2>Stay on top of the latest trends and updates</h2>
+        <div class="radar-screen">
+          <div class="radar-sweep"></div>
+          <div class="radar-blip"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="retrofutura-footer">
+      <p>&copy; 2023 RetroFutura. All rights reserved.</p>
+      <p>Designed and developed by <a href="https://github.com/Mosberg" target="_blank"
+          rel="noopener noreferrer">Mosberg</a></p>
+    </footer>
+  </div>
   <script src="src/js/groovy-script.js"></script>
 </body>
 

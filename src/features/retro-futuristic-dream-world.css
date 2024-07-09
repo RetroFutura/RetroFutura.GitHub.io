@@ -1,0 +1,87 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-block-end: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-block-end: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-block-end: 10px;
+}
+
+/* Kaleidoscope Background */
+
+.kaleidoscope-background {
+  background-image:
+    linear-gradient(to bottom, #333, #444),
+    repeating-linear-gradient(45deg,
+      #ff69b4, #e74c3c, #ff69b4, #e74c3c),
+    repeating-linear-gradient(-45deg,
+      #ff69b4, #e74c3c, #ff69b4, #e74c3c);
+  background-size: 200px 200px, 100px 100px, 50px 50px;
+  background-position: 0% 0%, 100% 100%, 50% 50%;
+  animation: kaleidoscope 10s infinite;
+  padding: 20px;
+  text-align: center;
+}
+
+@keyframes kaleidoscope {
+  0% {
+    background-position: 0% 0%, 100% 100%, 50% 50%;
+  }
+
+  100% {
+    background-position: 100% 0%, 0% 100%, 50% 50%;
+  }
+}
+
+/* Retro-Futuristic Fonts */
+
+.font-orbit {
+  font-family: 'Orbit', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #ff69b4;
+  text-shadow: 0 0 10px #ff69b4, 0 0 20px #e74c3c;
+}
+
+.font-neon {
+  font-family: 'Neon', script;
+  font-weight: normal;
+  font-size: 24px;
+  color: #e74c3c;
+  text-shadow: 2px 2px #ff69b4, 4px 4px #e74c3c;
+}
+
+.font-cosmic {
+  font-family: 'Cosmic', serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #fff;
+  text-shadow: 2px 2px #e74c3c, 4px 4px #fff;
+}

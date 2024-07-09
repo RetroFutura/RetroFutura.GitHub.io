@@ -1,0 +1,21 @@
+.kaleidoscope-background {
+  /* Add a retro-futuristic grid pattern */
+  background-image:
+    linear-gradient(to bottom, #333, #444),
+    repeating-linear-gradient(45deg,
+      #ff69b4, #e74c3c, #ff69b4, #e74c3c),
+    repeating-linear-gradient(-45deg,
+      #ff69b4, #e74c3c, #ff69b4, #e74c3c);
+  background-size: 200px 200px, 100px 100px, 50px 50px;
+  background-position: 0% 0%, 100% 100%, 50% 50%;
+}
+
+@keyframes kaleidoscope {
+  0% {
+    background-position: 0% 0%, 100% 100%, 50% 50%;
+  }
+
+  100% {
+    background-position: 100% 0%, 0% 100%, 50% 50%;
+  }
+}

@@ -1,6 +1,8 @@
 # **RetroFutura.GitHub.io**
 
-## **Welcome to RetroFutura** - _The Grooviest Homepage in the Galaxy!_
+## **Welcome to RetroFutura**
+
+**_The Grooviest Homepage in the Galaxy!_**
 
 **Get Ready to Blast Off into a World of Funky Fresh Features!**
 
@@ -10,7 +12,7 @@ _*RetroFutura is not just a homepage, it's an immersive experience that combines
 
 ## **Index**
 
-- **[Welcome to RetroFutura](#welcome-to-retrofutura---the-grooviest-homepage-in-the-galaxy)**
+- **[Welcome to RetroFutura](#welcome-to-retrofutura)**
 - **[RetroFutura Logo](#retrofutura-logo)**
 - **[Funky Features](#funky-features)**
 - **[Fancy Functions](#fancy-functions)**
@@ -22,7 +24,7 @@ _*RetroFutura is not just a homepage, it's an immersive experience that combines
 
 ## **RetroFutura Logo**
 
-![image](https://RetroFutura.GitHub.io/src/img/RetroFuturaLogoPng.png "RetroFutura Logo")
+![image](https://RetroFutura.GitHub.io/src/img/RetroFuturaLogoPng.png 'RetroFutura Logo')
 
 **_[Go to Top](#index)_**
 
@@ -134,6 +136,8 @@ _With its funky features, fancy functions, and new logics and rules, you'll be g
 **[Enter RetroFutura](https://RetroFutura.GitHub.io)**
 
 **[Connect with us on GitHub](https://github.com/RetroFutura)**
+
+**[Retro Futura Color Palette](https://RetroFutura.GitHub.io/src/md/Retro%20Futura%20Color%20Palette.md)**
 
 **RetroFutura - It's Not Just a Homepage, It's a Time Machine!**
 

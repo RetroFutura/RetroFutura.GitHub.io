@@ -1,0 +1,134 @@
+{
+  "rainbowTags.colors": {
+    "colors": [
+      {
+        "name": "Funky Fuchsia",
+        "rgba": "rgba(201, 58, 125, 1)"
+      },
+      {
+        "name": "Retro Red",
+        "rgba": "rgba(229, 57, 53, 1)"
+      },
+      {
+        "name": "Groovy Green",
+        "rgba": "rgba(64, 171, 107, 1)"
+      },
+      {
+        "name": "Cosmic Blue",
+        "rgba": "rgba(53, 123, 229, 1)"
+      },
+      {
+        "name": "Neon Yellow",
+        "rgba": "rgba(255, 230, 11, 1)"
+      },
+      {
+        "name": "Futura Orange",
+        "rgba": "rgba(255, 133, 27, 1)"
+      },
+      {
+        "name": "Psychedelic Purple",
+        "rgba": "rgba(131, 58, 189, 1)"
+      },
+      {
+        "name": "Electric Pink",
+        "rgba": "rgba(255, 105, 180, 1)"
+      },
+      {
+        "name": "Mystic Turquoise",
+        "rgba": "rgba(52, 228, 235, 1)"
+      },
+      {
+        "name": "Galactic Gold",
+        "rgba": "rgba(255, 193, 7, 1)"
+      }
+    ]
+  },
+  "rainbow-highlighter": {
+    "colors": [
+      {
+        "name": "Funky Fuchsia",
+        "rgba": "rgba(201, 58, 125, 0.4)"
+      },
+      {
+        "name": "Retro Red",
+        "rgba": "rgba(229, 57, 53, 0.4)"
+      },
+      {
+        "name": "Groovy Green",
+        "rgba": "rgba(64, 171, 107, 0.4)"
+      },
+      {
+        "name": "Cosmic Blue",
+        "rgba": "rgba(53, 123, 229, 0.4)"
+      },
+      {
+        "name": "Neon Yellow",
+        "rgba": "rgba(255, 230, 11, 0.4)"
+      },
+      {
+        "name": "Futura Orange",
+        "rgba": "rgba(255, 133, 27, 0.4)"
+      },
+      {
+        "name": "Psychedelic Purple",
+        "rgba": "rgba(131, 58, 189, 0.4)"
+      },
+      {
+        "name": "Electric Pink",
+        "rgba": "rgba(255, 105, 180, 0.4)"
+      },
+      {
+        "name": "Mystic Turquoise",
+        "rgba": "rgba(52, 228, 235, 0.4)"
+      },
+      {
+        "name": "Galactic Gold",
+        "rgba": "rgba(255, 193, 7, 0.4)"
+      }
+    ]
+  },
+  "indentRainbow": {
+    "colors": [
+      {
+        "name": "Funky Fuchsia",
+        "rgba": "rgba(201, 58, 125, 0.2)"
+      },
+      {
+        "name": "Retro Red",
+        "rgba": "rgba(229, 57, 53, 0.2)"
+      },
+      {
+        "name": "Groovy Green",
+        "rgba": "rgba(64, 171, 107, 0.2)"
+      },
+      {
+        "name": "Cosmic Blue",
+        "rgba": "rgba(53, 123, 229, 0.2)"
+      },
+      {
+        "name": "Neon Yellow",
+        "rgba": "rgba(255, 230, 11, 0.2)"
+      },
+      {
+        "name": "Futura Orange",
+        "rgba": "rgba(255, 133, 27, 0.2)"
+      },
+      {
+        "name": "Psychedelic Purple",
+        "rgba": "rgba(131, 58, 189, 0.2)"
+      },
+      {
+        "name": "Electric Pink",
+        "rgba": "rgba(255, 105, 180, 0.2)"
+      },
+      {
+        "name": "Mystic Turquoise",
+        "rgba": "rgba(52, 228, 235, 0.2)"
+      },
+      {
+        "name": "Galactic Gold",
+        "rgba": "rgba(255, 193, 7, 0.2)"
+      }
+    ]
+  }
+}

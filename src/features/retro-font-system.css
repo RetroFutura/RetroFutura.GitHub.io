@@ -1,0 +1,40 @@
+.retro-font-system {
+  background-color: #333;
+  /* Dark background */
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: 2px 2px #e74c3c;
+  /* Red glow effect */
+}
+
+.font-orbit {
+  font-family: 'Orbit', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #ff69b4;
+  /* Bright pink color */
+}
+
+.font-neon {
+  font-family: 'Neon', script;
+  font-weight: normal;
+  font-size: 24px;
+  color: #e74c3c;
+  /* Red color */
+  text-shadow: 2px 2px #ff69b4;
+  /* Bright pink neon effect */
+}
+
+.font-cosmic {
+  font-family: 'Cosmic', serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #fff;
+  /* White color */
+  text-shadow: 2px 2px #e74c3c;
+  /* Red glow effect */
+}
+
+/* Add more font styles here */
